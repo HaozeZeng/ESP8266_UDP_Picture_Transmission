@@ -1,0 +1,52 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "esp8266 FullClean",
+			"command": "idf.py",
+			"args": [
+				"fullclean",
+			],
+			"problemMatcher": [],
+			"detail": "esp8266 FullClean"
+		},
+		{
+			"type": "shell",
+			"label": "esp8266 Clean&Build",
+			"command": "idf.py",
+			"args": [
+				"-p",
+				"clean",
+				"build"
+			],
+			"problemMatcher": [],
+			"detail": "esp8266 Clean&Build"
+		},
+		{
+			"type": "shell",
+			"label": "esp8266 Download",
+			"command": "idf.py",
+			"args": [
+				"-p",
+				"/dev/ttyUSB0",
+				"flash"
+			],
+			"problemMatcher": [],
+			"detail": "esp8266 Download"
+		},
+		{
+			"label": "esp8266 Download&Monitor",
+			"type": "shell",
+			"command": "idf.py",
+			"args": [
+				"-p",
+				"/dev/ttyUSB0",
+				"flash",
+				"monitor"
+			],
+			"problemMatcher": [],
+			"detail": "ESP8266 Flash and Monitor"
+		}
+	]
+}
