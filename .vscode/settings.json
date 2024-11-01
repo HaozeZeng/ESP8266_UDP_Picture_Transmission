@@ -38,5 +38,5 @@
         "pic2.h": "c",
         "pictureprocess.h": "c"
     },
-    "idf.adapterTargetName": "esp8266"
+    "idf.adapterTargetName": "esp8266",
 }
