@@ -2,8 +2,8 @@
 #define PictureProcess_H
 #include "mqttbasedef.h"
 
-#define IMAGE_FRAME_SIZE 1025 // 每一帧body的大小,实际大小为1024要减去最后一位
-#define IMAGE_STREAM 0        // 可能会有多个图片流，所以要区分
+#define IMAGE_FRAME_SIZE 601 // 每一帧body的大小,实际大小为1024要减去最后一位
+#define IMAGE_STREAM 0       // 可能会有多个图片流，所以要区分
 
 enum category
 {
